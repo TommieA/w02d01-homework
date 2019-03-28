@@ -55,3 +55,6 @@ console.log(crazyObject.larry.characters[2].favourtieHobby);
 console.log(crazyObject.larry.nicknames[1]);
 console.log(crazyObject.larry.characters[1].name);
 
+inception.limbo = null
+console.log(inception.limbo)
+
