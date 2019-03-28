@@ -85,7 +85,9 @@ const bondFilms = [
 ];
 const bondTitles = [];
 bondFilms.forEach(function getTitle(bondFilms) {
-    bondTitles.push(bondFilms.title);
+    if(bondFilms.year % 2 !== 0) {
+         bondTitles.push(bondFilms.title);
+    }
 });
 
 console.log(bondTitles);
